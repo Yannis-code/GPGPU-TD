@@ -1,6 +1,8 @@
 
-#include "cpp_test_compil.hpp"
-#include "cuda_test_compil.hpp"
+#include "cpp_TD1.hpp"
+#include "cuda_TD1.hpp"
+#include "cpp_TD2.hpp"
+#include "cuda_TD2.hpp"
 
 int main(int, char*[])
 {
