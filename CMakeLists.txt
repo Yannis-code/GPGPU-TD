@@ -27,13 +27,13 @@ add_library(base)
 
 target_sources(base
   PRIVATE
-    src/cpp_TD1.cpp
-    src/cpp_TD2.cpp
+    src/cpp_TP1.cpp
+    src/cpp_TP2.cpp
 )
 target_sources(base
   PRIVATE
-    src/cuda_TD1.cu
-    src/cuda_TD2.cu
+    src/cuda_TP1.cu
+    src/cuda_TP2.cu
 )
 add_executable(${PROJECT_NAME} src/main.cpp)
 target_link_libraries(${PROJECT_NAME}

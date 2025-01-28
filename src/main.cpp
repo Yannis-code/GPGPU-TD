@@ -1,12 +1,13 @@
 
-#include "cpp_TD1.hpp"
-#include "cuda_TD1.hpp"
-#include "cpp_TD2.hpp"
-#include "cuda_TD2.hpp"
+#include "cpp_TP1.hpp"
+#include "cuda_TP1.hpp"
+
+#include "cpp_TP2.hpp"
+#include "cuda_TP2.hpp"
 
 int main(int, char*[])
 {
-  runOnCPU();
-  runOnGPU();
-  return 0;
+	//nx2_plus_ny_GPU();
+	convert_greyscale_GPU();
+	return 0;
 }
