@@ -30,8 +30,12 @@ void convert_greyscale_GPU()
 	int height;
 	int width;
 
+	std::cout << "Enter height : ";
 	std::cin >> height;
+	std::cout << std::endl;
+	std::cout << "Enter width : ";
 	std::cin >> width;
+	std::cout << std::endl;
 
 	dim3 Bloc(32, 32);
 	dim3 Grille(1000, 1000);
